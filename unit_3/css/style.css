@@ -4,9 +4,22 @@
 	box-sizing:border-box;
 }
 body {
-	background-color: grey;
+	background-color: #7f7a73;
 	text-align: center;
+}
+h1 {
+	color: #ffffff;
 }
 p {
 	color: blue;
+}
+#slogan {
+	font-style: italic;
+}
+header {
+	width: 800px;
+	height: 500px;
+}
+.hero {
+	background-content: cover;
 }
