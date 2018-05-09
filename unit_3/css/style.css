@@ -9,3 +9,6 @@ body {
 p {
 	color: blue;
 }
+header {
+	height: 100px;
+}
