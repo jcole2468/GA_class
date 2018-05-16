@@ -1,0 +1,31 @@
+* {
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+body {
+	background-color: #ffffff;
+	text-align: center;
+}
+h1 {
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-style: black;
+	font-size: 45px;
+}
+p {
+	color: blue;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+#slogan {
+	font-style: italic;
+}
+header {
+	width: 800px;
+	height: 500px;
+}
+.hero {
+	background-content: cover;
+}
