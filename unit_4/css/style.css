@@ -29,3 +29,6 @@ header {
 .hero {
 	background-content: cover;
 }
+a {
+	font-family: 'Playfair Display', serif;
+}
