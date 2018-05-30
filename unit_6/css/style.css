@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+* {
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
+}
+body {
+	background-color: #ffffff;
+	text-align: center;
+}
+h1 {
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-style: black;
+	font-size: 45px;
+}
+p {
+	color: blue;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+#slogan {
+	font-style: italic;
+}
+header {
+	background-color: #FFED74;
+}
+.hero {
+	position: relative;
+	
+}
+a {
+	font-family: 'Playfair Display', serif;
+}
+img {
+	display: block;
+	width: 100%;
+}
+footer {
+	background-color: #FF957E
+}
+menu {
+	background-color: #FFE2B8;
+}
+section {
+	background-color: #E89C6C;
+}
+#top-logo{
+	display: block;
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+#about{
+	width: 25%;
+	float: left;
+}
+#about-info{
+	width:  75%;
+	float: right;
+}
+.clear-fix:after{
+	visibility: hidden;
+	content: "";
+	display: block;
+	clear:both;
+	font-size: 0;
+	height: 0;
+}
+.menu{
+	display: block;
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+#about-spacing{
+	padding: 20px;
+}
+#two-column {
+	background-color: #ffbb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
+}
+#right {
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
