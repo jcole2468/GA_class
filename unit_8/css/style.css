@@ -7,23 +7,23 @@
 body {
 	background-color: #ffffff;
 	text-align: center;
+	font-size: 16px
 }
 h1 {
 	color: #000000;
 	font-family: 'Playfair Display', serif;
 	font-style: black;
-	font-size: 45px;
+	font-size: 3em;
 }
 p {
 	color: blue;
 	font-family: 'Playfair Display', serif;
-	font-size: 30px;
+	font-size: 2em;
 }
 #slogan {
 	font-style: italic;
 }
 header {
-	background-color: #FFED74;
 }
 .hero {
 	position: relative;
@@ -44,7 +44,10 @@ menu {
 	}
 section {
 }
-#margin-body{
+#thumbnail{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 #top-logo{
 	display: block;
@@ -76,6 +79,9 @@ section {
 	padding: 20px;
 }
 #about-spacing{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	padding: 20px;
 }
 #two-column {
@@ -98,4 +104,10 @@ section {
 	padding: 20px;
 	float: right;
 	width: 30%;
+}
+@media screen and (max-width: 760px){
+	.menu{
+		width: 100%;
+		float: none;
+	}
 }
